@@ -4,12 +4,13 @@ import (
 	"fmt"
 	"log"
 
+	"go_mysql/api/handler"
+	"go_mysql/api/router"
+	"go_mysql/config"
+	"go_mysql/internal/repository"
+	"go_mysql/internal/service"
+
 	"github.com/gin-gonic/gin"
-	"github.com/yourusername/go_mysql/api/handler"
-	"github.com/yourusername/go_mysql/api/router"
-	"github.com/yourusername/go_mysql/config"
-	"github.com/yourusername/go_mysql/internal/repository"
-	"github.com/yourusername/go_mysql/internal/service"
 )
 
 func main() {

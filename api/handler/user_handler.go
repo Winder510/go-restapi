@@ -2,12 +2,12 @@ package handler
 
 import (
 	"errors"
+	"go_mysql/internal/model"
+	"go_mysql/internal/service"
 	"net/http"
 	"strconv"
 
 	"github.com/gin-gonic/gin"
-	"github.com/yourusername/go_mysql/internal/model"
-	"github.com/yourusername/go_mysql/internal/service"
 )
 
 type UserHandler struct {

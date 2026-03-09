@@ -5,7 +5,7 @@ import (
 	"database/sql"
 	"fmt"
 
-	"github.com/yourusername/go_mysql/internal/model"
+	"go_mysql/internal/model"
 )
 
 type UserRepository interface {

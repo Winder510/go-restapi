@@ -1,9 +1,10 @@
 package router
 
 import (
+	"go_mysql/api/handler"
+	"go_mysql/api/middleware"
+
 	"github.com/gin-gonic/gin"
-	"github.com/yourusername/go_mysql/api/handler"
-	"github.com/yourusername/go_mysql/api/middleware"
 )
 
 func SetupRouter(userHandler *handler.UserHandler) *gin.Engine {

@@ -6,10 +6,11 @@ import (
 	"fmt"
 	"time"
 
+	"go_mysql/internal/model"
+	"go_mysql/internal/repository"
+	"go_mysql/internal/util"
+
 	"github.com/google/uuid"
-	"github.com/yourusername/go_mysql/internal/model"
-	"github.com/yourusername/go_mysql/internal/repository"
-	"github.com/yourusername/go_mysql/internal/util"
 )
 
 var (

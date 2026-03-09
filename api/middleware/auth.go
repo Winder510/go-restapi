@@ -4,9 +4,10 @@ import (
 	"net/http"
 	"strings"
 
+	"go_mysql/internal/model"
+	"go_mysql/internal/util"
+
 	"github.com/gin-gonic/gin"
-	"github.com/yourusername/go_mysql/internal/model"
-	"github.com/yourusername/go_mysql/internal/util"
 )
 
 func AuthMiddleware() gin.HandlerFunc {

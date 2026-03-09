@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"go_mysql/api/handler"
-	"go_mysql/api/router"
+	"go_mysql/api"
 	"go_mysql/config"
 	"go_mysql/internal/repository"
 	"go_mysql/internal/service"
